@@ -41,7 +41,7 @@ function MovieNavbar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto nav">
               <Nav.Link href="#home" className="nav-item">
-                <Link className="text-light text-decoration-none " to="/">
+                <Link className="text-light text-decoration-none " to="/Movie-app">
                   Home
                 </Link>
               </Nav.Link>

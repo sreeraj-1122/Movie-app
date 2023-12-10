@@ -7,19 +7,10 @@ import axios from "axios";
 import Details from "./Details";
 import { Newcontext } from "../App";
 
-// export const Newcontext = createContext();
 
 function Popular() {  
 const {popular,setPopular}=useContext(Newcontext)  
-  // const [popular, setPopular] = useState([]);
   
-  
-
-  // const getData = async () => {
-  //   let response = await axios.get(PopularMovies);
-  //   setPopular(response.data.results);
-  //   console.log(popular);
-  // };
 
   return (
 

@@ -40,9 +40,9 @@ function App() {
       <Newcontext.Provider value={{popular,setPopular,latest,setLatest,comedy, setComedy,apidata,setApidata,movie,setMovie}}>
       <BrowserRouter>
       <MovieNavbar/>
-
+      
       <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/Movie-app" element={<Home/>}/>
         <Route path="/movies" element={<Movies/>}/>
         <Route path="/popular" element={<Popular/>}/>
         <Route path="/latest" element={<Latest/>}/>
